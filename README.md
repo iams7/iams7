@@ -19,7 +19,7 @@ class Readme:
         if (now<today):
             experience = self.employeement['engineer']
             return """
-            I was a Software engineer at {large_firms} in {big_cities} for 6 months
+            I was a Software engineer at {large_firms} in {big_cities} for 1 year
             """.format(large_firms=experience[0],big_cities=experience[1])
 
         elif (now==today):
