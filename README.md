@@ -1,9 +1,8 @@
-### Hello, I'm Sridhar
+### Hello, I'm Sridhar Ram
 
-## Software Engineer
-- 🔭 An enthusiastic software engineer who seeks for a challenging job where I can utilise my skills and abilities efficiently to increase the company's growth to my best.
----
-- 🌱 Current learning things to progress my skills and activities
+## Software Engineer (freelance)
+- 🔭 I’m the person who looks for growth in software and system technologies as Software Engineer finds a way to apply them and consistently strives to boost the productivity of everyone around me
+- 🌱 Currently learning things to progress my skills and activities
 - 👯 Looking to collaborate with developers to progress my efficiency
 - 🥅 2020 Goals: Contribute more to Open Source projects
 - ⚡ Fun fact: I love to Dance and play Table tennis and Cricket
@@ -21,7 +20,7 @@
 ### Languages and Tools:
 
 [<img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />][webdevplaylist]
-[<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />][webdevplaylist]
+[<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />]
 [<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />][cssplaylist]
 [<img align="left" alt="Sass" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" />][cssplaylist]
 [<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />][jsplaylist]
