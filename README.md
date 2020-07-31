@@ -2,10 +2,8 @@
 
 ## Software Engineer
 - 🔭 An enthusiastic software engineer who seeks for a challenging job where I can utilise my skills and abilities efficiently to increase the company's growth to my best.
-
 ---
-
-- 🌱 Current learning thing to progress my skills and activities
+- 🌱 Current learning things to progress my skills and activities
 - 👯 Looking to collaborate with developers to progress my efficiency
 - 🥅 2020 Goals: Contribute more to Open Source projects
 - ⚡ Fun fact: I love to Dance and play Table tennis and Cricket
