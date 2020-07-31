@@ -1,4 +1,4 @@
-### Hi there, I'm Sridhar - aka [codeSTACKr][https://www.linkedin.com/in/sridhar-ram-64b207109/] 👋
+### Hi there, I'm Sridhar (https://www.linkedin.com/in/sridhar-ram-64b207109/) 👋
 
 ## Software Engineer
 - 🔭 An enthusiastic software engineer who seeks for a challenging job where I can utilise my skills and abilities efficiently to increase the company's growth to by best.
