@@ -22,7 +22,7 @@ class Readme:
             I am currently brushing up {code} skills and learning {code_tech} technologies.
             """.format(code=learn[0],code_tech=learn[1])
             
-        if (now<today):
+        elif (now > 2019 and now <today):
             experience = self.employeement['software_engineer']
             return """
             I was a Software engineer at {large_firms} in {big_cities} for 1 year
