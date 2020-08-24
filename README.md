@@ -9,24 +9,31 @@ class Readme:
         }
         self.employeement = {
             'developer': ['company', 'city'],
-            'engineer': ['miniOrange Security Software','Pune'],
-            'technician': ['GP Computers and Network','Ranipet']
+            'software_engineer': ['miniOrange Security Software','Pune'],
+            'hardware_engineer': ['Super Solutions pvt. Ltd','Vellore']
         }
 
     def doing(self, now=2020):
         today = self.year
-
+        
+        if (now > 2014 and now < 2019):
+            learn = self.education['programming']
+            return """
+            I am currently brushing up {code} skills and learning {code_tech} technologies.
+            """.format(code=learn[0],code_tech=learn[1])
+            
         if (now<today):
-            experience = self.employeement['engineer']
+            experience = self.employeement['software_engineer']
             return """
             I was a Software engineer at {large_firms} in {big_cities} for 1 year
             """.format(large_firms=experience[0],big_cities=experience[1])
 
         elif (now==today):
-            dream = self.education['programming']
+            dream = self.employeement['hardware_engineer']
+            level = self.education['programming']
             return """
-            I am currently brushing up {code} skills and learning {code_tech} technologies.
-            """.format(code=dream[0],code_tech=dream[1])
+            I am currently a provenance of {my_startup} that keep progression on my {code_tech} skills and upgrades.
+            """.format(my_startup=dream[0],code_tech=level[0])
 
         elif (now>today):
             goal = self.employeement['developer']
