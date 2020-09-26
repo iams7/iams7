@@ -11,7 +11,7 @@ class Readme:
             'architecture': ['Master of Science','VIT University']
         }
         
-        self.employeement = {
+        self.employment = {
             'developer': ['company', 'city'],
             'software_engineer': ['miniOrange Security Software','Pune'],
             'hardware_engineer': ['Super Solutions pvt. Ltd','Vellore']
@@ -28,23 +28,23 @@ class Readme:
             return """
                 I am currently brushing up {code} skills and learning {code_tech} technologies.
             """ . format(
-                    code=learn[0],
-                    code_tech=learn[1]
-                    )
+                        code=learn[0],
+                        code_tech=learn[1]
+                        )
             
         elif (now >= 2019 and now <today):
         
-            experience = self.employeement['software_engineer']
+            experience = self.employment['software_engineer']
             return """
                 I was a Software engineer at {large_firms} in {big_cities} for 1 year
             """ . format(
-                    large_firms=experience[0],
-                    big_cities=experience[1]
-                    )
+                        large_firms=experience[0],
+                        big_cities=experience[1]
+                        )
 
         elif (now==today):
         
-            dream = self.employeement['hardware_engineer']
+            dream = self.employment['hardware_engineer']
             level = self.education['programming']
             
             return """
@@ -53,19 +53,20 @@ class Readme:
                 to make progress on my {code_tech} skills and upgrades
                 all the time.
             """ . format(
-                    my_startup=dream[0],
-                    code_tech=level[0]
-                    )
+                        my_startup=dream[0],
+                        code_tech=level[0]
+                        )
 
         elif (now>today):
         
-            goal = self.employeement['developer']
+            goal = self.employment['developer']
+            
             return """
                 I am eager to collaborate with {teams} and {projects}.
             """ . format(
-                teams=goal[0],
-                projects=goal[1]
-                )
+                        teams=goal[0],
+                        projects=goal[1]
+                        )
         else:
         
             return """
@@ -74,7 +75,7 @@ class Readme:
             
     def collaborate(self, role, organization, location):
     
-        opportunity = self.employeement
+        opportunity = self.employment
         opportunity[role] = [organization, location]
 
 me = Readme(2020)
