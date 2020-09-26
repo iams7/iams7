@@ -32,7 +32,10 @@ class Readme:
             dream = self.employeement['hardware_engineer']
             level = self.education['programming']
             return """
-            I am currently a Freelance {code_tech} and the provenance of {my_startup} which motivates me to make progress all the time on my {code_tech} skills and upgrades.
+            I am currently a Freelance Software Engineer
+            and the provenance of {my_startup} which motivates me 
+            to make progress on my {code_tech} skills and upgrades
+            all the time.
             """.format(my_startup=dream[0],code_tech=level[0])
 
         elif (now>today):
