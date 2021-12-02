@@ -13,11 +13,11 @@ class Readme:
         
         self.employment = {
             'developer': ['company', 'city'],
-            'software_engineer': ['miniOrange Security Software','Pune'],
-            'hardware_engineer': ['Super Solutions pvt. Ltd','Vellore']
+            'software_engineer_1': ['miniOrange Security Software','Pune'],
+            'software_engineer_2': ['Langscape Language Solutions pvt. Ltd','Chennai']
         }
 
-    def doing(self, now=2020):
+    def doing(self, now=2021):
     
         today = self.year
         
@@ -26,15 +26,15 @@ class Readme:
             learn = self.education['programming']
             
             return """
-                I am currently brushing up {code} skills and learning {code_tech} technologies.
+                I am currently learning and practicing up {code} the  skills and learning {code_tech} technologies in VIT University.
             """ . format(
                         code=learn[0],
                         code_tech=learn[1]
                         )
             
-        elif (now >= 2019 and now <today):
+        elif (now >= 2019 and now <2020):
         
-            experience = self.employment['software_engineer']
+            experience = self.employment['software_engineer_1']
             return """
                 I was a Software engineer at {large_firms} in {big_cities} for 1 year
             """ . format(
@@ -44,16 +44,16 @@ class Readme:
 
         elif (now==today):
         
-            dream = self.employment['hardware_engineer']
+            dream = self.employment['software_engineer_2']
             level = self.education['programming']
             
             return """
                 I am currently a Freelance Software Engineer
-                and the provenance of {my_startup} which motivates me 
+                and a FTE in {current_company} which motivates me 
                 to make progress on my {code_tech} skills and upgrades
                 all the time.
             """ . format(
-                        my_startup=dream[0],
+                        current_company=dream[0],
                         code_tech=level[0]
                         )
 
