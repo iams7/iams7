@@ -12,7 +12,7 @@ class Readme:
         }
         
         self.employment = {
-            'developer': ['company', 'city'],
+            'developer': ['Software Development Teams', 'Full-stack and Blockchain Application'],
             'software_engineer_1': ['miniOrange Security Software','Pune'],
             'software_engineer_2': ['Langscape Language Solutions pvt. Ltd','Chennai']
         }
@@ -26,7 +26,9 @@ class Readme:
             learn = self.education['programming']
             
             return """
-                I am currently learning and practicing up {code} the  skills and learning {code_tech} technologies in VIT University.
+                I am currently learning and practicing up {code} 
+                the  skills and learning {code_tech} technologies 
+                in VIT University.
             """ . format(
                         code=learn[0],
                         code_tech=learn[1]
@@ -62,7 +64,7 @@ class Readme:
             goal = self.employment['developer']
             
             return """
-                I am eager to collaborate with {teams} and {projects}.
+                I am eager to collaborate with greater {teams} and interesting {projects}.
             """ . format(
                         teams=goal[0],
                         projects=goal[1]
