@@ -1,8 +1,7 @@
 ```python
-from datetime import date
 class Readme:
 
-    def __init__(self, username="iams7", year=date.today().year):
+    def __init__(self, username="iams7", year=2021):
     
         self.username = username
         self.name = "Sridhar Ram"
@@ -18,7 +17,7 @@ class Readme:
             'software_engineer_2': ['Langscape Language Solutions pvt. Ltd','Chennai']
         }
 
-    def doing(self, now=date.today().year):
+    def doing(self, now=2021):
     
         today = self.year
         
@@ -79,5 +78,5 @@ class Readme:
         opportunity = self.employment
         opportunity[role] = [organization, location]
 
-me = Readme(2020)
+me = Readme(2021)
 ```
