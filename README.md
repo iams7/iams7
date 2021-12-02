@@ -27,7 +27,7 @@ class Readme:
             
             return """
                 I am currently learning and practicing up {code} 
-                the  skills and learning {code_tech} technologies 
+                the skills and learning {code_tech} technologies 
                 in VIT University.
             """ . format(
                         code=learn[0],
