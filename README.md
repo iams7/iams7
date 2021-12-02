@@ -12,9 +12,12 @@ class Readme:
         }
         
         self.employment = {
-            'developer': ['Software Development Teams', 'Full-stack and Blockchain Application'],
             'software_engineer_1': ['miniOrange Security Software','Pune'],
             'software_engineer_2': ['Langscape Language Solutions pvt. Ltd','Chennai']
+        }
+        
+        self.passion = {
+            'greater_engineer': ['Software Development Teams', 'Full-stack and Blockchain Application'],
         }
 
     def doing(self, now=2021):
@@ -61,7 +64,7 @@ class Readme:
 
         elif (now>today):
         
-            goal = self.employment['developer']
+            goal = self.passion['greater_engineer']
             
             return """
                 I am eager to collaborate with greater {teams} and interesting {projects}.
