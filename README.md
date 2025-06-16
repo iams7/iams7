@@ -4,8 +4,8 @@
 ---
 
 ### 🚀 About Me
-- 🧑‍💻 Full-stack Engineer based in **Chennai** — open to freelance collabs
-- 🌱 Currently crafting a **Support Tracking + Analytics** product  
+- 🧑‍💻 Sr. Full-stack Engineer at Risurge Technologies based in **Hyderabad** — open to freelance collabs
+- 🌱 Currently crafting progress in **Product Architecture + Analytics** and building **AI Agents with A2A architecture**
 - 💭 I love solving real-world problems with **React**, **Vite**, **Node.js**, and **Python**
 - 🌸 Always thinking like an architect — performance, scalability, and vision matter
 
