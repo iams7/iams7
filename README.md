@@ -1,87 +1,51 @@
-```python
-class Readme:
+<h1 align="center">Hey there, I'm Sridhar 👋</h1>
+<h3 align="center">Building tools with purpose</h3>
 
-    def __init__(self, username="iams7", year=2021):
-    
-        self.username = username
-        self.name = "Sridhar Ram"
-        
-        self.education = {
-            'programming': ['Software Engineering','Computing Science'],
-            'architecture': ['Master of Science','VIT University']
-        }
-        
-        self.employment = {
-            'software_engineer_1': ['miniOrange Security Software','Pune'],
-            'software_engineer_2': ['Langscape Language Solutions pvt. Ltd','Chennai']
-        }
-        
-        self.passion = {
-            'greater_engineer': ['Software Development Teams', 'Full-stack and Blockchain Application'],
-        }
+---
 
-    def doing(self, now=2021):
-    
-        today = self.year
-        
-        if (now > 2014 and now < 2019):
-        
-            learn = self.education['programming']
-            
-            return """
-                I am currently learning and practicing up {code} 
-                the skills and learning {code_tech} technologies 
-                in VIT University.
-            """ . format(
-                        code=learn[0],
-                        code_tech=learn[1]
-                        )
-            
-        elif (now >= 2019 and now <2020):
-        
-            experience = self.employment['software_engineer_1']
-            return """
-                I was a Software engineer at {large_firms} in {big_cities} for 1 year
-            """ . format(
-                        large_firms=experience[0],
-                        big_cities=experience[1]
-                        )
+### 🚀 About Me
+- 🧑‍💻 Full-stack Engineer based in **Chennai** — open to freelance collabs
+- 🌱 Currently crafting a **Support Tracking + Analytics** product  
+- 💭 I love solving real-world problems with **React**, **Vite**, **Node.js**, and **Python**
+- 🌸 Always thinking like an architect — performance, scalability, and vision matter
 
-        elif (now==today):
-        
-            dream = self.employment['software_engineer_2']
-            level = self.education['programming']
-            
-            return """
-                I am currently a Freelance Software Engineer
-                and a FTE in {current_company} which motivates me 
-                to make progress on my {code_tech} skills and upgrades
-                all the time.
-            """ . format(
-                        current_company=dream[0],
-                        code_tech=level[0]
-                        )
+---
 
-        elif (now>today):
-        
-            goal = self.passion['greater_engineer']
-            
-            return """
-                I am eager to collaborate with greater {teams} and interesting {projects}.
-            """ . format(
-                        teams=goal[0],
-                        projects=goal[1]
-                        )
-        else:
-        
-            return """
-                Hi there!
-            """
-            
-    def collaborate(self, role, organization, location):
-    
-        opportunity = self.employment
-        opportunity[role] = [organization, location]
+### 🛠️ Tech Stack  
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=for-the-badge)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=for-the-badge)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=for-the-badge)
+![Supabase](https://img.shields.io/badge/-Supabase-3ECF8E?logo=supabase&logoColor=white&style=for-the-badge)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge)
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=for-the-badge)
+![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=white&style=for-the-badge)
 
-me = Readme(2021)
-```
+---
+
+### 🔧 Currently Working On
+- 🛠️ **Support360** – a scalable support tracking system  
+- 🤖 AI-powered insights using OpenRouter & custom prompt layers  
+- 🛡️ Improving error handling & analytics across projects  
+- 🔁 Building monorepo tooling with **Turborepo**, **Bun**, and **CI/CD**
+
+---
+
+### 💎 My Dev Motto
+> _"Build like it’s a product, scale like it’s a platform."_
+
+---
+
+### 📬 Let's Connect
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/iams7)  
+[![Buy Me a Coffee](https://img.shields.io/badge/-Buy%20Me%20a%20Coffee-FFDD00?logo=buy-me-a-coffee&logoColor=black&style=for-the-badge)](https://www.buymeacoffee.com/iams7)  
+[![Portfolio](https://img.shields.io/badge/-Portfolio-000?style=for-the-badge)](https://iams7.dev)
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=iams7&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <br />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=iams7&theme=radical" alt="GitHub Streak" />
+</p>
